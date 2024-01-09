@@ -1,5 +1,5 @@
 
-//Ejercicio nota escolar
+/*Ejercicio nota escolar
 
 let notaExamen = prompt ("Cual fue tu resultado en el examen?");
 let ordenarHabitacion = prompt ("Ordenaste tu habitacion?");
@@ -8,11 +8,10 @@ if (notaExamen >= 7 && ordenarHabitacion == "si") {
    alert ("Podes salir de parranda!");
 } else {
    alert("Te quedas en casa, que pena :( ");
-}
+}*/
 
 
-//-----------------------------------------
-//Ejercicio suma de cena
+//EJERCICIO SUMA COSTO DE CENA + PROPINA
 
 function sumarCenaMasPropina() {
     let comida = prompt("Cuanto gastaste en la morfi?");
@@ -36,9 +35,7 @@ function sumarCenaMasPropina() {
 sumarCenaMasPropina();
 
 
-
-//-----------------------------------------
-//Ejercicio de profe SUMA TOTAL precios
+/*EJERCICIO DE SUMA PRECIO PRODUCTOS
 
 let carrito = [];
 
@@ -79,9 +76,7 @@ if (totalCarrito !== 0) {
 }
 
 
-
-//-----------------------------------------
-//Ejercicio de porcentaje
+//EJERCICIO DE PORCENTAJE//
 
 let numero = parseFloat(prompt("Ingrese un número:"));
 let porcentaje = parseFloat(prompt("Que porcentaje queres calcular?"));
@@ -98,5 +93,5 @@ function calcularPorcentaje(numero, porcentaje) {
     alert("El " + porcentaje + "% de " + numero + " es: " + resultado);
 }
 
-calcularPorcentaje(numero, porcentaje);
+calcularPorcentaje(numero, porcentaje); */
 
